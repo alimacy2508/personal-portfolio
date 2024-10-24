@@ -1,8 +1,8 @@
 :root {
-  --branding-color: rgb(111, 117, 95);
+  --branding-color: rgb(174, 88, 211);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
-  --secondary-color: rgb(231, 237, 215);
+  --secondary-color: rgb(245, 237, 248);
 }
 
 body {
@@ -48,7 +48,7 @@ h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 2;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -74,12 +74,16 @@ h2 {
   padding: 80px 60px;
 }
 
+img {
+  border-radius: 4px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 80px 20px;
   }
   h1 {
-    font-size: 44px;
+    font-size: 60px;
   }
   h2 {
     font-size: 44px;
