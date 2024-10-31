@@ -19,16 +19,20 @@
       src="https://kit.fontawesome.com/b67cdc4afa.js"
       crossorigin="anonymous"
     ></script>
-    <title>Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Alice is a knowledgeable frontend developer based in Northern Ireland"
+    />
+    <title>Frontend Developer - Alice McKay</title>
   </head>
   <body>
     <div class="container">
       <nav>
         <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="#" title="Home Page">Home</a></li>
+          <li><a href="/about.html" title="About Alice">About</a></li>
+          <li><a href="/work.html" title="Portfolio Page">Work</a></li>
+          <li><a href="/contact.html" title="Contact Alice">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -37,7 +41,9 @@
       <h1>Alice McKay</h1>
       <h2 class="mb-3">Frontend developer based in Northern Ireland</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
+        <a href="/contact.html" title="Contact Alice" class="btn btn-branding"
+          >Contact Me</a
+        >
       </div>
     </div>
     <p class="text-center mt-5">A showcase of my best projects to date</p>
@@ -64,7 +70,7 @@
               around the world as well as also providing additional locations in
               the dropdown menu.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -80,7 +86,7 @@
               detailing the suitability of the location chosen for the user
               based upon their chosen adjective.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -129,12 +135,7 @@
               animated weather icons to the next five days forecast, bringing a
               elevating the level of sophiscation within the project.
             </p>
-            <a
-              href="https://github.com/alimacy2508/weather-react-project"
-              target="_blank"
-              class="btn btn-branding-outline"
-              >Learn More</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -150,7 +151,7 @@
               project seamlessly coincide to deliver a Dictionary App with a
               high level of performance.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -172,24 +173,34 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact Me</a>
+            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:alice.m@hotmail.com" class="email-link"
-            >alice.m@hotmail.com</a
-          >
-        </div>
+
         <div class="social-links d-flex justify-content-center">
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/alimacy2508" target="_blank"
+          <a href="" target="_blank" title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/alimacy2508"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-muted text-center mt-4">
+          This project is coded by Alice and is
+          <a
+            href="https://github.com/alimacy2508/personal-portfolio"
+            target="_blank"
+            title="Github project link"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
