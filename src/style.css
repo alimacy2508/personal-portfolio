@@ -31,6 +31,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 40px;
+}
 
 .hero {
   background-color: var(--secondary-color);
@@ -110,7 +113,68 @@ img {
   text-align: center;
   padding: 0;
 }
+nav {
+  display: flex;
+  justify-content: end !important;
+  padding: 20px 0;
+}
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272412;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272412;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 @media (max-width: 960px) {
   .hero {
     padding: 80px 20px;
@@ -121,6 +185,9 @@ img {
   h2 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 26px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -128,5 +195,8 @@ img {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
