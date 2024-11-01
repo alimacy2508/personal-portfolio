@@ -81,6 +81,12 @@ img {
   border-radius: 4px;
 }
 
+.profile-photo {
+  width: 80%;
+  margin-left: 50px;
+  border-radius: 6px;
+}
+
 .project-links a {
   color: black !important;
   margin-left: 5px;
