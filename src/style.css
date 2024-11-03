@@ -92,6 +92,17 @@ img {
   margin-left: 5px;
 }
 
+.cv-link {
+  color: #272412;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cv-link:hover {
+  color: var(--branding-color);
+}
+
 .content-container {
   padding: 60px 20px;
 }
