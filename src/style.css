@@ -63,6 +63,17 @@ h3 {
   font-weight: normal;
 }
 
+.btn-branding-small {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 8px 16px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
 .btn-branding-outline {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
@@ -71,6 +82,10 @@ h3 {
   padding: 12px 20px;
   font-weight: normal;
   border-radius: 4px;
+}
+
+.social-link {
+  color: black !important;
 }
 
 .project-description {
@@ -85,11 +100,6 @@ img {
   width: 80%;
   margin-left: 50px;
   border-radius: 6px;
-}
-
-.project-links a {
-  color: black !important;
-  margin-left: 5px;
 }
 
 .cv-link {
